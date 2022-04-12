@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+html {
+  font-size: 62.5%;
+}
+/* default nav */
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin: 0;
+}
+.default .list-nav {
+  width: 22rem;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  position: relative;
+  margin-right: 12px;
+}
+.default .list-nav li a {
+  margin-right: 1rem;
+  color: #000000;
+}
+.default .menu-button-icon {
+  background-color: #fff;
+  border: none;
+}
+.default .menu-button-icon:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+.menu-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 0rem;
+  height: 2.5rem;
+}
+.default .list-nav img {
+  border-radius: 50%;
+  margin-left: 0.6rem;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+/* image nav */
+.image .list-nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  position: relative;
+  margin: 12px 16px;
+}
+.image .list-nav .menu-button-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202124;
+  border: none;
+  width: 28px;
+  margin-right: 12px;
+}
+.image .list-nav .menu-button-icon:hover {
+  cursor: pointer;
+}
+.image .list-nav .menu-button-icon .menu-icon {
+  border-radius: 50%;
+  margin-left: 1rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: cover;
+  margin-right: 14px;
+}
+.menu-button-icon-signin_images {
+  width: 9.6rem;
+  height: 3.6rem;
+  background-color: #8ab4f8;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  margin-right: 2px;
+}
+.menu-button-icon-signin_images:hover {
+  cursor: pointer;
+  background-color: #72a5f7;
+}

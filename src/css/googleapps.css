@@ -1,0 +1,41 @@
+.apps_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: hsl(238, 0%, 16%);
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    z-index: 2;
+}
+.apps_container-span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    font-size: 1.4rem;
+    border-radius: 10%;
+    color: #fff;
+    background-color: hsl(238, 0%, 16%);
+}
+.apps_container-span:hover {
+    cursor: pointer;
+    background-color: rgb(29, 26, 26);
+}
+.apps_container-span-button {
+    background-color: papayawhip;
+}
+.apps_container-img-account {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+    object-fit: cover;
+    
+}
+.apps_container-img {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 0.8rem;
+    object-fit: contain;
+}

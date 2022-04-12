@@ -1,0 +1,119 @@
+.account-container {
+    width: 380px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: hsl(238, 0%, 18%);
+}
+.account-container_1 {
+    width: 100%;
+    border-bottom: 0.1px solid #fff;
+}
+.account-container_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+.account-container_img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.account-container_tilte {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 0.4rem;
+}
+.account-container_email {
+    font-size: 1.6rem;
+    margin-top: 0;
+    color: #fff;
+}
+.account-container_button {
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+    margin-bottom: 2.4rem;
+    padding: 1rem 1.4rem;
+    border-radius: 10rem;
+    color: #fff;
+    background-color: hsl(238, 0%, 18%);
+    border: 0.1px solid #fff; 
+}
+.account-container_button:hover {
+    cursor: pointer;
+    background-color: rgb(29, 26, 26);
+}
+
+.account-container_add {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    padding: 4px;
+    width: 100%;
+    border-bottom: 0.1px solid #fff;
+} 
+.account-container_add:hover {
+    width: 98%;
+    cursor: pointer;
+    background-color: rgb(29, 26, 26);
+}
+.account-container_add_img {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0 32px;
+    margin-left: 48px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.account-container_add p {
+    color: #fff;
+    font-size: 1.6rem;
+}
+.account-container_signout {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1px solid #fff;
+}
+.account-container_signout_button:hover {
+    cursor: pointer;
+    background-color: rgb(29, 26, 26);
+}
+.account-container_signout_button {
+    font-size: 1.4rem;
+    padding: 16px;
+    border-radius: 0.6rem;
+    color: #fff;
+    background-color: hsl(238, 0%, 18%);
+    border: 0.1px solid #fff; 
+    margin-bottom: 4px;
+}
+.account-container_terms {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.account-container_terms span {
+    margin: 0 12px;
+}
+.account-container_terms p {
+    font-size: 1.4rem;
+}
+.account-container_terms p:hover {
+    cursor: pointer;
+    background-color: rgb(29, 26, 26);
+}

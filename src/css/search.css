@@ -1,0 +1,165 @@
+/* logo default */
+.default .main-logo {
+  width: 53rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+.main-logo img {
+  width: 27.2rem;
+  height: 9.2rem;
+}
+/* logo image */
+.main-logo_image {
+  width: 53rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.main-logo_image img {
+  width: 27.2rem;
+  height: 9.2rem;
+}
+.main-logo_image p {
+  font-size: 1.7rem;
+  margin: 0;
+  position: relative;
+  left: 106px;
+  bottom: 22px;
+  color: #4487f6;
+}
+/* Here default */
+.main-search {
+  width: 53rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+.default .main-input-container {
+  width: 52.5rem;
+  border-radius: 10rem;
+  border: 0.1rem solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.default .main-input-container input {
+  width: 45rem;
+  height: 3.5rem;
+  border: none;
+  outline: none;
+}
+.default .main-input-container:hover {
+  box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+  border-color: #dfe1e500;
+}
+.default .main-input-container .search-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.default .main-input-container .micro-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+.main-buttons {
+  width: 53rem;
+  margin: 0 auto;
+}
+.main-buttons div {
+  display: inline-block;
+}
+.main-buttons button {
+  height: 3.6rem;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 1.4rem;
+  color: #5f6368;
+  border-radius: 0.5rem;
+  padding: 0 1.5rem;
+  margin-right: 1.7rem;
+}
+.main-buttons button:hover {
+  border: 0.1rem solid #c6c6c6;
+  box-shadow: 0 0.1rem 0.1rem #000001;
+  color: #222;
+  background-color: #f8f8f8;
+}
+/* Here image */
+.main-search {
+  width: 53rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+  border-radius: 10rem;
+}
+.image .main-input-container {
+  width: 53rem;
+  height: 4.2rem;
+  border-radius: 10rem;
+  border: 0.1rem solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image .main-input-container input {
+  width: 46rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+
+  margin-left: 4px;
+}
+.image .main-input-container input {
+  background-color: #202124;
+  color: #fff;
+}
+
+.image .main-input-container:hover {
+  box-shadow: 0 0.1rem 0.6rem 0 #000001;
+  border-color: #dfe1e500;
+  background-color: hsl(238, 0%, 16%);
+}
+.image input:hover,
+.search-icon_image:hover {
+  background-color: hsl(238, 0%, 16%);
+}
+.image .search-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 8px;
+}
+.search-camara-button_image {
+  background-color: hsl(238, 0%, 16%);
+  border: none;
+  margin-right: 8px;
+  border-radius: 40%;
+}
+.search-camara-button_image:hover {
+  cursor: pointer;
+  background-color: hsl(238, 0%, 16%);
+}
+.image .search-camara-icon_image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-self: center;
+}
+
+.image .micro-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin-right: 8px;
+}
